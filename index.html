@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Pest Control in El Paso TX | 24/7 Service | Call (888) 305-1120">
+    <meta name="description" content="Professional pest control in El Paso, TX. Emergency extermination services available 24/7. Pricing varies by infestation type. Call (888) 305-1120 today.">
+    <meta name="keywords" content="pest control in el paso, pest control in el paso tx, exterminator el paso, emergency pest control el paso, best pest control in el paso, pest removal service el paso tx">
+    <meta name="geo.region" content="US-TX">
+    <meta name="geo.placename" content="El Paso, Texas">
+    <title>Pest Control in El Paso TX | 24/7 Emergency Service | (888) 305-1120</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --desert-sand: #E8D4B8;
+            --sunset-orange: #D97742;
+            --deep-clay: #8B4513;
+            --sage-green: #6B8E6B;
+            --charcoal: #2C2C2C;
+            --warm-white: #FAF8F5;
+            --accent-red: #C4453C;
+            --soft-shadow: rgba(0, 0, 0, 0.08);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.7;
+            color: var(--charcoal);
+            background-color: var(--warm-white);
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Animated Background Pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(233, 212, 184, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(107, 142, 107, 0.2) 0%, transparent 50%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--charcoal) 0%, #1a1a1a 100%);
+            box-shadow: 0 4px 20px var(--soft-shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid var(--sunset-orange);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--warm-white);
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--sunset-orange);
+        }
+        
+        .phone-header {
+            background: linear-gradient(135deg, var(--accent-red), #a03530);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 60px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 20px rgba(196, 69, 60, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .phone-header:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(196, 69, 60, 0.4);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--deep-clay) 0%, var(--sunset-orange) 100%);
+            color: white;
+            padding: 100px 0 80px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+            opacity: 0.3;
+            animation: drift 60s linear infinite;
+        }
+
+        @keyframes drift {
+            0% { transform: translateX(0) translateY(0); }
+            100% { transform: translateX(100px) translateY(100px); }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 28px;
+            line-height: 1.1;
+            font-weight: 800;
+            text-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-subtitle {
+            font-size: 1.35rem;
+            max-width: 850px;
+            margin: 0 auto 35px;
+            line-height: 1.8;
+            opacity: 0.95;
+            animation: fadeInUp 0.8s ease-out 0.2s backwards;
+        }
+
+        .location-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 12px 24px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            animation: fadeInUp 0.8s ease-out 0.1s backwards;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-red), #a03530);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 60px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.3rem;
+            margin: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+            animation: fadeInUp 0.8s ease-out 0.3s backwards;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 60px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 28px;
+            border-radius: 16px;
+            min-width: 220px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        
+        /* Introduction Section */
+        .introduction {
+            padding: 90px 0;
+            background-color: white;
+            position: relative;
+        }
+
+        .intro-content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.15rem;
+            line-height: 1.9;
+        }
+
+        .intro-content p {
+            margin-bottom: 24px;
+        }
+
+        .intro-content strong {
+            color: var(--deep-clay);
+            font-weight: 700;
+        }
+
+        .call-highlight {
+            background: linear-gradient(135deg, var(--desert-sand), #f0e5d8);
+            border-left: 5px solid var(--sunset-orange);
+            padding: 28px 35px;
+            border-radius: 12px;
+            margin: 35px 0;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 15px var(--soft-shadow);
+        }
+
+        .call-highlight a {
+            color: var(--accent-red);
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid var(--accent-red);
+            transition: all 0.2s ease;
+        }
+
+        .call-highlight a:hover {
+            color: var(--sunset-orange);
+            border-bottom-color: var(--sunset-orange);
+        }
+        
+        /* Section Title */
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 60px;
+            color: var(--charcoal);
+            position: relative;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, var(--sunset-orange), var(--accent-red));
+            border-radius: 3px;
+        }
+        
+        /* Problem Solution Section */
+        .problem-solution {
+            padding: 90px 0;
+            background: linear-gradient(180deg, var(--warm-white) 0%, #f5f2ed 100%);
+        }
+        
+        .psb-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .psb-item {
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px var(--soft-shadow);
+            background: white;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .psb-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--accent-red), var(--sunset-orange));
+        }
+
+        .psb-item.solution::before {
+            background: linear-gradient(90deg, var(--sage-green), #7da87d);
+        }
+
+        .psb-item.result::before {
+            background: linear-gradient(90deg, var(--sunset-orange), var(--deep-clay));
+        }
+
+        .psb-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        }
+        
+        .psb-item h3 {
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+            color: var(--deep-clay);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .psb-item ul {
+            padding-left: 24px;
+            margin: 24px 0;
+        }
+        
+        .psb-item li {
+            margin-bottom: 14px;
+            line-height: 1.7;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 90px 0;
+            background-color: white;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 35px;
+            margin-top: 60px;
+        }
+        
+        .service-card {
+            background: linear-gradient(135deg, var(--warm-white) 0%, #f5f2ed 100%);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 6px 25px var(--soft-shadow);
+            transition: all 0.3s ease;
+            text-align: center;
+            border: 1px solid rgba(139, 69, 19, 0.1);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+            border-color: var(--sunset-orange);
+        }
+        
+        .service-icon {
+            font-size: 3.5rem;
+            margin-bottom: 24px;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .service-card:nth-child(even) .service-icon {
+            animation-delay: 1.5s;
+        }
+        
+        .service-card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 18px;
+            color: var(--deep-clay);
+            font-weight: 700;
+        }
+
+        .service-card p {
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        /* Trust Signals */
+        .trust-signals {
+            padding: 90px 0;
+            background: linear-gradient(135deg, var(--deep-clay) 0%, var(--sunset-orange) 100%);
+            color: white;
+        }
+        
+        .trust-badges {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 35px;
+            margin-top: 60px;
+        }
+        
+        .badge {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 35px 28px;
+            border-radius: 16px;
+            text-align: center;
+            min-width: 240px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background: rgba(255, 255, 255, 0.22);
+            transform: scale(1.05);
+        }
+        
+        .badge-icon {
+            font-size: 3rem;
+            margin-bottom: 18px;
+        }
+
+        .badge h3 {
+            font-size: 1.5rem;
+            margin-bottom: 14px;
+            font-weight: 700;
+        }
+
+        .badge p {
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+        
+        /* Service Area */
+        .service-area {
+            padding: 90px 0;
+            background-color: white;
+        }
+        
+        .zip-codes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin-top: 50px;
+        }
+        
+        .zip-item {
+            background: linear-gradient(135deg, var(--desert-sand), #f0e5d8);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            box-shadow: 0 4px 15px var(--soft-shadow);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .zip-item:hover {
+            border-color: var(--sunset-orange);
+            transform: translateY(-3px);
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 90px 0;
+            background: linear-gradient(180deg, var(--warm-white) 0%, #f5f2ed 100%);
+        }
+        
+        .faq-item {
+            background: white;
+            margin-bottom: 24px;
+            border-radius: 14px;
+            box-shadow: 0 4px 20px var(--soft-shadow);
+            overflow: hidden;
+            border: 1px solid rgba(139, 69, 19, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--sunset-orange);
+        }
+        
+        .faq-question {
+            padding: 26px 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--deep-clay);
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: var(--warm-white);
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            padding: 0 30px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+        
+        .faq-answer-content {
+            padding: 0 0 26px 0;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .faq-answer-content a {
+            color: var(--accent-red);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid var(--accent-red);
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 600px;
+            padding-top: 6px;
+        }
+        
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, var(--accent-red) 0%, #8b2f2f 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: rotate 60s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .final-cta-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .final-cta h2 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            font-weight: 800;
+            text-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .final-cta p {
+            font-size: 1.3rem;
+            max-width: 850px;
+            margin: 0 auto 45px;
+            line-height: 1.8;
+        }
+
+        .guarantee-text {
+            margin-top: 25px;
+            font-weight: 600;
+            font-size: 1.15rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--charcoal) 0%, #1a1a1a 100%);
+            color: white;
+            padding: 70px 0 35px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.4rem;
+            margin-bottom: 24px;
+            position: relative;
+            padding-bottom: 12px;
+            font-weight: 700;
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--sunset-orange), var(--accent-red));
+        }
+        
+        .footer-links a {
+            display: block;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            padding-left: 8px;
+        }
+
+        .footer-phone {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--sunset-orange);
+            margin: 24px 0;
+            display: inline-block;
+        }
+        
+        .disclaimer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 35px;
+            border-radius: 12px;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 35px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        /* Floating Button */
+        .floating-button {
+            position: fixed;
+            bottom: 35px;
+            right: 35px;
+            background: linear-gradient(135deg, var(--accent-red), #a03530);
+            color: white;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(196, 69, 60, 0.4);
+            z-index: 1000;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 8px 25px rgba(196, 69, 60, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 12px 35px rgba(196, 69, 60, 0.6);
+            }
+        }
+        
+        .floating-button:hover {
+            transform: scale(1.15);
+            animation: none;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .intro-content {
+                font-size: 1.05rem;
+            }
+            
+            .psb-container,
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .final-cta h2 {
+                font-size: 2.2rem;
+            }
+            
+            .floating-button {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+                bottom: 25px;
+                right: 25px;
+            }
+
+            .stats {
+                gap: 20px;
+            }
+
+            .stat-item {
+                min-width: 180px;
+            }
+
+            .phone-header {
+                font-size: 1.1rem;
+                padding: 12px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Pest Control Services - El Paso TX",
+      "url": "https://example.com",
+      "telephone": "+18883051120",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Service area within 50 miles",
+        "addressLocality": "El Paso",
+        "addressRegion": "TX",
+        "postalCode": "79901",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.7619,
+        "longitude": -106.4850
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "City",
+        "name": "El Paso",
+        "containedIn": {
+          "@type": "State",
+          "name": "Texas"
+        }
+      }
+    }
+    </script>
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">El Paso <span>Pest Control</span></div>
+            <a href="tel:+18883051120" class="phone-header">📞 (888) 305-1120</a>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="location-badge">📍 Serving El Paso, TX & Surrounding Areas</div>
+                <h1>24/7 Emergency Pest Control in El Paso TX</h1>
+                <p class="hero-subtitle">Expert pest control services protecting El Paso homes and businesses from termites, bed bugs, rodents, cockroaches, and more. Our licensed professionals respond fast to eliminate your pest problems safely and effectively.</p>
+                <a href="tel:+18883051120" class="cta-button">📞 Call Now: (888) 305-1120</a>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">⚡ 24/7</div>
+                        <div>Emergency Response</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">🛡️ Licensed</div>
+                        <div>Insured Professionals</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">📍 50 Mile</div>
+                        <div>Service Radius</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Introduction -->
+    <section class="introduction">
+        <div class="container">
+            <div class="intro-content">
+                <p>It started with just one cockroach scurrying across your kitchen floor late at night. Then you noticed tiny droppings in your pantry. Now you're hearing scratching sounds in the walls, and you're starting to worry about what's really going on inside your El Paso home.</p>
+                
+                <p>You're not alone. <strong>El Paso's desert climate creates the perfect conditions for pest infestations</strong> — from scorpions and termites to bed bugs and rodents. These aren't just nuisances. They're health hazards that can contaminate your food, trigger allergies, damage your property, and multiply rapidly when left untreated.</p>
+
+                <div class="call-highlight">
+                    ☎️ Every pest situation is different. <strong>Pricing varies based on infestation type, severity, and property size.</strong> Call <a href="tel:+18883051120">(888) 305-1120</a> to discuss your specific pest problem and get clarity on next steps.
+                </div>
+
+                <p>The good news? Professional pest control in El Paso can eliminate your infestation quickly and prevent future problems. But time matters. The longer you wait, the worse it gets — and the more difficult (and expensive) the treatment becomes.</p>
+
+                <p><strong>Our experienced team serves El Paso and surrounding communities within a 50-mile radius.</strong> We understand the unique pest challenges in West Texas, from desert pests to seasonal infestations. Whether you're dealing with an emergency situation or need scheduled treatment, we're here to help.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Problem Solution Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <h2 class="section-title">How We Solve Your Pest Problems</h2>
+            
+            <div class="psb-container">
+                <div class="psb-item problem">
+                    <h3>🚨 The Problem</h3>
+                    <p>El Paso homeowners face constant pest threats from our desert environment. You might be dealing with:</p>
+                    <ul>
+                        <li><strong>Termites</strong> silently destroying your home's structure</li>
+                        <li><strong>Bed bugs</strong> causing sleepless nights and itchy bites</li>
+                        <li><strong>Cockroaches</strong> spreading disease in your kitchen</li>
+                        <li><strong>Rodents</strong> chewing wires and contaminating food</li>
+                        <li><strong>Scorpions</strong> posing danger to your family</li>
+                        <li><strong>Ants</strong> invading in massive colonies</li>
+                    </ul>
+                    <p>These pests multiply quickly, spread disease, damage property, and create serious health risks. Every day you wait allows the problem to grow worse.</p>
+                </div>
+                
+                <div class="psb-item solution">
+                    <h3>✅ Our Solution</h3>
+                    <p>We provide comprehensive pest control services throughout El Paso using proven methods that are safe for your family and pets:</p>
+                    <ul>
+                        <li>Complete property inspection to identify pest type and entry points</li>
+                        <li>Customized treatment plan based on your specific infestation</li>
+                        <li>Professional-grade treatments using EPA-approved products</li>
+                        <li>Targeted application to eliminate pests at the source</li>
+                        <li>Entry point sealing and prevention strategies</li>
+                        <li>Follow-up service to ensure complete elimination</li>
+                    </ul>
+                    <div class="call-highlight">
+                        Treatment options and costs vary by pest type and severity. <strong>Call <a href="tel:+18883051120">(888) 305-1120</a></strong> to discuss your situation.
+                    </div>
+                </div>
+                
+                <div class="psb-item result">
+                    <h3>🎯 The Result</h3>
+                    <p>Our customers throughout El Paso report immediate relief and long-term protection:</p>
+                    <ul>
+                        <li>Rapid elimination of existing pest problems</li>
+                        <li>Restored peace of mind and sleep quality</li>
+                        <li>Protected property value and structural integrity</li>
+                        <li>Reduced health risks for your family</li>
+                        <li>Preventive barriers against future infestations</li>
+                        <li>Expert guidance on maintaining a pest-free home</li>
+                    </ul>
+                    <p>No more worrying about pests in your El Paso home. Our licensed professionals handle everything from emergency infestations to ongoing prevention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Complete Pest Control Services in El Paso</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🐜</div>
+                    <h3>Ant Extermination</h3>
+                    <p>Complete colony elimination for all ant species common to El Paso. We locate nests, eliminate colonies, and create barriers to prevent re-entry into your property.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🪳</div>
+                    <h3>Cockroach Control</h3>
+                    <p>Advanced treatment methods to eliminate cockroach infestations throughout your home. We target hiding spots, breeding areas, and entry points for total control.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🛏️</div>
+                    <h3>Bed Bug Treatment</h3>
+                    <p>Comprehensive bed bug elimination using proven heat and chemical treatments. We inspect mattresses, furniture, and all potential hiding places.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🐭</div>
+                    <h3>Rodent Removal</h3>
+                    <p>Professional mice and rat control including trapping, removal, and exclusion services. We seal entry points to prevent future rodent problems in your El Paso property.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🦂</div>
+                    <h3>Scorpion Control</h3>
+                    <p>Specialized treatment for El Paso's scorpion population. We create protective barriers and eliminate scorpions from your property to keep your family safe.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏚️</div>
+                    <h3>Termite Treatment</h3>
+                    <p>Complete termite inspections and treatment to protect your home's structure. We detect hidden damage and eliminate colonies before they cause serious harm.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🕷️</div>
+                    <h3>Spider Removal</h3>
+                    <p>Safe removal of dangerous spiders including black widows. We eliminate webs, treat hiding areas, and provide residual protection for your El Paso home.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🐝</div>
+                    <h3>Stinging Insect Control</h3>
+                    <p>Professional wasp, bee, and yellow jacket nest removal. Our experts safely eliminate nests and prevent these aggressive insects from returning to your property.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px;">
+                <p style="font-size: 1.25rem; margin-bottom: 25px; font-weight: 600;">Don't let pests take over your El Paso home. Our experts are ready to help 24/7.</p>
+                <p style="margin-bottom: 25px; color: #666;">Response times and pricing vary by location and severity. Call for details.</p>
+                <a href="tel:+18883051120" class="cta-button">📞 Call for Service: (888) 305-1120</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trust Signals -->
+    <section class="trust-signals">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Why El Paso Trusts Our Pest Control Services</h2>
+            
+            <div class="trust-badges">
+                <div class="badge">
+                    <div class="badge-icon">🏆</div>
+                    <h3>Licensed Professionals</h3>
+                    <p>All technicians are state-licensed and trained in the latest pest control methods</p>
+                </div>
+                
+                <div class="badge">
+                    <div class="badge-icon">🛡️</div>
+                    <h3>Fully Insured</h3>
+                    <p>Complete liability coverage protects your property and gives you peace of mind</p>
+                </div>
+                
+                <div class="badge">
+                    <div class="badge-icon">⚡</div>
+                    <h3>24/7 Emergency Service</h3>
+                    <p>We respond to urgent pest situations any time, day or night, throughout El Paso</p>
+                </div>
+                
+                <div class="badge">
+                    <div class="badge-icon">🌱</div>
+                    <h3>Safe Treatments</h3>
+                    <p>EPA-approved products that are effective against pests but safe for your family and pets</p>
+                </div>
+
+                <div class="badge">
+                    <div class="badge-icon">🎓</div>
+                    <h3>Local Expertise</h3>
+                    <p>Years of experience with El Paso's unique desert pest challenges</p>
+                </div>
+
+                <div class="badge">
+                    <div class="badge-icon">📋</div>
+                    <h3>Customized Plans</h3>
+                    <p>Every treatment is tailored to your specific pest problem and property needs</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px;">
+                <p style="font-size: 1.3rem; margin-bottom: 25px; opacity: 0.95;">Trusted by homeowners throughout El Paso and surrounding communities</p>
+                <a href="tel:+18883051120" class="cta-button">📞 Speak with a Professional: (888) 305-1120</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Service Area -->
+    <section id="service-area" class="service-area">
+        <div class="container">
+            <h2 class="section-title">Serving El Paso & Surrounding Areas</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">We provide professional pest control services throughout El Paso and within a 50-mile service radius. Emergency response times vary based on location and current job load, but urgent calls are always prioritized.</p>
+            
+            <h3 style="text-align: center; font-size: 1.8rem; margin: 50px 0 30px; color: var(--deep-clay);">El Paso Area ZIP Codes We Serve</h3>
+            
+            <div class="zip-codes">
+                <div class="zip-item">79901 - Downtown</div>
+                <div class="zip-item">79902 - South El Paso</div>
+                <div class="zip-item">79903 - Central</div>
+                <div class="zip-item">79904 - Northeast</div>
+                <div class="zip-item">79905 - East Side</div>
+                <div class="zip-item">79907 - Lower Valley</div>
+                <div class="zip-item">79911 - East Side</div>
+                <div class="zip-item">79912 - Eastside</div>
+                <div class="zip-item">79915 - Far East</div>
+                <div class="zip-item">79922 - Mission Valley</div>
+                <div class="zip-item">79924 - Cielo Vista</div>
+                <div class="zip-item">79925 - Socorro</div>
+                <div class="zip-item">79927 - Horizon City</div>
+                <div class="zip-item">79928 - Anthony</div>
+                <div class="zip-item">79930 - Westside</div>
+                <div class="zip-item">79932 - West Side</div>
+                <div class="zip-item">79934 - Northwest</div>
+                <div class="zip-item">79935 - Northeast Heights</div>
+                <div class="zip-item">79936 - Far Eastside</div>
+                <div class="zip-item">79938 - Far Westside</div>
+            </div>
+
+            <p style="text-align: center; margin-top: 50px; font-size: 1.1rem; color: #666;">Also serving surrounding communities including Sunland Park, Canutillo, Fabens, Fort Bliss, and other areas within our service radius.</p>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <div class="call-highlight" style="max-width: 700px; margin: 0 auto;">
+                    📞 <strong>How fast can we get there?</strong> Dispatch times vary based on traffic and current job load, but emergency calls are always given top priority. Call <a href="tel:+18883051120">(888) 305-1120</a> to confirm availability in your area.
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Who should I call for pest control in El Paso?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        For professional pest control services in El Paso, call <a href="tel:+18883051120">(888) 305-1120</a>. Our licensed exterminators are available 24/7 to handle emergency situations and scheduled treatments throughout El Paso and surrounding areas within our 50-mile service radius.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Is there 24/7 pest control near me in El Paso?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes, we provide 24/7 emergency pest control services throughout El Paso. Whether you discover pests late at night, on weekends, or during holidays, our team is ready to respond. Call <a href="tel:+18883051120">(888) 305-1120</a> anytime to discuss your pest emergency.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    How does pest control pricing work in El Paso?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Pest control costs vary significantly based on several factors: the type of pest (termites require different treatment than ants), severity of the infestation, size of your property, and specific treatment methods needed. There's no one-size-fits-all pricing. Call <a href="tel:+18883051120">(888) 305-1120</a> to discuss your specific situation and get accurate information about treatment options and costs.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    How quickly can pest control treatment start?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Response times depend on your location within our service area, current job load, and traffic conditions. Emergency calls are always prioritized. We serve a wide 50-mile radius around El Paso. For specific availability and estimated arrival time for your location, call <a href="tel:+18883051120">(888) 305-1120</a> and speak with our dispatch team.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Are pest control treatments safe for my pets and children?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We use EPA-approved treatments that are effective against pests while being safe for your family and pets when applied correctly by our licensed professionals. We'll provide specific safety instructions based on the treatment type. Different pest problems require different solutions, so call <a href="tel:+18883051120">(888) 305-1120</a> to discuss your concerns and learn about the specific products we'll use for your situation.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    How often should I schedule pest control service?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        The frequency of pest control treatments depends on several factors: your property's pest history, location, construction type, and surrounding environment. Some El Paso homes benefit from quarterly treatments due to our desert climate, while others need different schedules. After your initial treatment, we can recommend a prevention plan tailored to your specific needs. Call <a href="tel:+18883051120">(888) 305-1120</a> to discuss the best schedule for your property.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What pests are most common in El Paso?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        El Paso's desert climate creates unique pest challenges. Common pests include scorpions, termites, cockroaches, ants (especially carpenter ants), spiders (including black widows), rodents, bed bugs, and various stinging insects. Our team has extensive experience treating all pests common to West Texas. Call <a href="tel:+18883051120">(888) 305-1120</a> to discuss the specific pest problem you're facing.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do I need to leave my home during treatment?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        This depends on the type of treatment required. Many treatments allow you to remain in your home with minimal disruption. Some situations, like extensive fumigation or certain bed bug heat treatments, may require temporary relocation. We'll inform you of all requirements before beginning work. Call <a href="tel:+18883051120">(888) 305-1120</a> to learn about the specific procedures for your pest problem.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2>🚨 Need Pest Control in El Paso? We're Here 24/7</h2>
+                <p>Don't let pests damage your property or threaten your family's health. Our licensed professionals are standing by to eliminate your pest problems quickly and effectively. Whether it's an emergency infestation or scheduled treatment, we're ready to help.</p>
+                <a href="tel:+18883051120" class="cta-button">📞 Call Now: (888) 305-1120</a>
+                <p class="guarantee-text">✅ Available 24/7 • ✅ Licensed & Insured • ✅ Serving El Paso & 50-Mile Radius</p>
+                <p style="margin-top: 30px; font-size: 1.1rem; opacity: 0.9;">Every pest situation is unique. Call to discuss pricing, availability, and treatment options for your specific problem.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>El Paso Pest Control</h3>
+                    <p>Professional pest control services available 24/7 throughout El Paso and surrounding areas.</p>
+                    <a href="tel:+18883051120" class="footer-phone">📞 (888) 305-1120</a>
+                    <p style="margin-top: 15px; opacity: 0.8;">Emergency response • Licensed professionals • 50-mile service radius</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <div class="footer-links">
+                        <a href="#services">Ant Control</a>
+                        <a href="#services">Bed Bug Treatment</a>
+                        <a href="#services">Cockroach Extermination</a>
+                        <a href="#services">Rodent Control</a>
+                        <a href="#services">Scorpion Control</a>
+                        <a href="#services">Termite Treatment</a>
+                        <a href="#services">Spider Removal</a>
+                        <a href="#services">Stinging Insect Control</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Service Areas</h3>
+                    <div class="footer-links">
+                        <a href="#service-area">El Paso, TX</a>
+                        <a href="#service-area">Horizon City</a>
+                        <a href="#service-area">Socorro</a>
+                        <a href="#service-area">Sunland Park</a>
+                        <a href="#service-area">Canutillo</a>
+                        <a href="#service-area">Fort Bliss</a>
+                        <a href="#service-area">50-Mile Service Radius</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Important Info</h3>
+                    <div class="footer-links">
+                        <a href="#faq">FAQ</a>
+                        <a href="tel:+18883051120">Emergency Contact</a>
+                        <a href="#services">Available Services</a>
+                        <a href="#service-area">Coverage Area</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disclaimer">
+                <p><strong>Disclaimer:</strong> This website connects homeowners with local independent pest control contractors. We do not provide pest control services directly and do not guarantee the work performed. Homeowners must verify contractor licensing and insurance independently. Services, pricing, and availability vary by location and infestation severity. All images are for illustrative purposes only.</p>
+            </div>
+            
+            <div class="copyright">
+                <p>© Copyright 2026 - All Rights Reserved</p>
+                <p style="margin-top: 10px;">24/7 Emergency Pest Control Services • El Paso, Texas • (888) 305-1120</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Floating Button -->
+    <a href="tel:+18883051120" class="floating-button" aria-label="Call for pest control service">📞</a>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who should I call for pest control in El Paso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For professional pest control services in El Paso, call (888) 305-1120. Our licensed exterminators are available 24/7 to handle emergency situations and scheduled treatments throughout El Paso and surrounding areas within our 50-mile service radius."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there 24/7 pest control near me in El Paso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide 24/7 emergency pest control services throughout El Paso. Whether you discover pests late at night, on weekends, or during holidays, our team is ready to respond."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does pest control pricing work in El Paso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pest control costs vary significantly based on several factors: the type of pest, severity of the infestation, size of your property, and specific treatment methods needed. Call (888) 305-1120 to discuss your specific situation and get accurate information about treatment options and costs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What pests are most common in El Paso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Paso's desert climate creates unique pest challenges. Common pests include scorpions, termites, cockroaches, ants, spiders (including black widows), rodents, bed bugs, and various stinging insects."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- JavaScript -->
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
